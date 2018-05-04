@@ -1,13 +1,15 @@
-<div class="jobs">
-  <a href="#">GAME JOBS</a>
-</div>
-<div class="nav">
-  <a *ngFor="let link of navLinkList" href={{link.link}}>{{link.name}}</a>
-</div>
-<div class="search">
-  <form>
-    <label for="search">SEARCH</label>
-    <input type="text">
-    <button type="button">GO</button>
-  </form>
+<div class="wrapper">
+  <div class="jobs">
+    <a href="#">GAME JOBS</a>
+  </div>
+  <div class="nav">
+    <a *ngFor="let link of navLinkList" href={{link.link}}>{{link.name}}</a>
+  </div>
+  <div class="search">
+    <form>
+      <label for="search">SEARCH</label>
+      <input type="text">
+      <button type="button">GO</button>
+    </form>
+  </div>
 </div>

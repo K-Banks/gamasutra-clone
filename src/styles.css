@@ -1,4 +1,6 @@
-html {
+body {
   background: linear-gradient(#333, #666);
+}
+html {
   min-height: 100%;
 }
