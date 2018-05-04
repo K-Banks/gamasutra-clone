@@ -1,4 +1,7 @@
 .container {
   background-color: transparent;
-  width: 1006px;
+  min-width: 1006px;
+}
+img {
+  margin-bottom: 20px;
 }

@@ -1,22 +1,27 @@
 .wrapper {
-  min-width: 100%;
+  min-width: 838px;
   height: 30px;
   background-color: #DDD;
 }
+
+
 div {
   display: inline-block;
   font-size: 9px;
   font-weight: 700;
-  line-height: 13.5px;
+  line-height: 30px;
   height: 30px;
 }
+
+
 .jobs {
   display: block;
   float: left;
-  background-color: #D96A00;
+  background: linear-gradient(#dd8d34, #d96a00);
   background-clip: border-box;
   width: 124px;
   text-align: center;
+  vertical-align: middle;
 }
 .jobs a {
   color: white;
@@ -26,11 +31,32 @@ div {
   cursor: pointer;
   text-decoration: underline;
 }
+
+
+.nav {
+  width: 502px;
+}
+.nav a {
+  margin: 0px 25px 0px 25px;
+  color: #336658;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+
+
 .search {
   display: block;
+  width: 208px;
+  text-align: center;
   float: right;
   color: white;
-  background: linear-gradient(#666, #333);
+  background: linear-gradient(#888, #333);
+}
+input {
+  border: 0px;
+  padding: 0px;
+  height: 25px;
 }
 button {
   color: white;
