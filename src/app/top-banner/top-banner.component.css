@@ -1,0 +1,12 @@
+div {
+  background-color: black;
+  color: white;
+}
+li {
+  display: inline-block;
+  padding: 5px 28px 5px 28px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
