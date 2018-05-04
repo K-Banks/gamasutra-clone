@@ -75,7 +75,15 @@ _Please contact author at kayleubanks@gmail.com with any bugs._
   * User will be able to navigate to social media pages for Gamasutra.
   * User will be able to filter articles by relevant categories (ex: Programming, Art, Audio, ect.).
   * User will be able to filter articles by relevant topics (ex: Console/PC, Smartphone/Tablet, VR/AR, ect.).
+  * User will be able to search articles using their own keywords.
 
+
+### Project Planning
+  * example of Gamasutra landing page:
+    * ![picture](README-img/Gamasutra-plain.png)
+
+  * Plan of major component layout for webpage:
+    * ![picture](README-img/Gamasutra-layout.png)
 
 ### License
 
