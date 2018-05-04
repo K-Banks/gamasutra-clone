@@ -85,6 +85,11 @@ _Please contact author at kayleubanks@gmail.com with any bugs._
   * Plan of major component layout for webpage:
     * ![picture](README-img/Gamasutra-layout.png)
 
+  * Plan of subcomponents layout:
+    * ![picture](README-img/Gamasutra-subcomponents.png)
+
+  
+
 ### License
 
 This software is licensed under the MIT license.
