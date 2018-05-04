@@ -1,8 +1,3 @@
-# GamasutraClone
-
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
-
 #### _Gamasutra Clone_
 
 #### By: _**Kayl Eubanks**_
@@ -79,16 +74,27 @@ _Please contact author at kayleubanks@gmail.com with any bugs._
 
 
 ### Project Planning
+  #### Landing Page
   * example of Gamasutra landing page:
-    * ![picture](README-img/Gamasutra-plain.png)
+    ![picture](README-img/Gamasutra-plain.png)
 
   * Plan of major component layout for webpage:
-    * ![picture](README-img/Gamasutra-layout.png)
+    ![picture](README-img/Gamasutra-layout.png)
 
   * Plan of subcomponents layout:
-    * ![picture](README-img/Gamasutra-subcomponents.png)
+    ![picture](README-img/Gamasutra-subcomponents.png)
 
-  
+  #### Bottom Banner of Landing Page
+  * Example of Gamasutra Bottom Banner:
+    ![picture](README-img/Gamasutra-bottombanner.png)
+
+  * Plan of major component layout for bottom banner:
+    ![picture](README-img/Gamasutra-layout-bottombanner.png)
+
+  * Plan of subcomponents for bottom banner:
+    ![picture](README-img/Gamasutra-subcomponents-bottombanner.png)
+
+
 
 ### License
 
