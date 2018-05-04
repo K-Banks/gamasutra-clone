@@ -1,5 +1,5 @@
 .wrapper {
-  min-width: 838px;
+  max-width: 838px;
   height: 30px;
   background-color: #DDD;
 }

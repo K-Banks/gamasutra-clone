@@ -1,0 +1,19 @@
+.wrapper {
+  max-width: 838px;
+  height: 37px;
+  background-color: #DDD;
+}
+ul {
+  font-size: 9px;
+  font-weight: 700;
+  height: 33px;
+  vertical-align: middle;
+}
+li {
+  background: linear-gradient(#77d59b, #097141);
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.developer {
+  height: 33px;
+}
