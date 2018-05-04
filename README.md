@@ -70,7 +70,11 @@ _Please contact author at kayleubanks@gmail.com with any bugs._
 
 
 ### Specs
-
+  * User will be able to navigate to other UBM TechWeb properties from top nav bar.
+  * User will be able to click on article titles for links to those articles.
+  * User will be able to navigate to social media pages for Gamasutra.
+  * User will be able to filter articles by relevant categories (ex: Programming, Art, Audio, ect.).
+  * User will be able to filter articles by relevant topics (ex: Console/PC, Smartphone/Tablet, VR/AR, ect.).
 
 
 ### License
