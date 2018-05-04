@@ -3,7 +3,9 @@
   color: white;
 }
 .top {
-  height: 110px;
+  min-width: 1006px;
+  margin-left: auto;
+  margin-right: auto;
 }
 img {
   display: block;
@@ -11,11 +13,14 @@ img {
   margin-right: auto;
 }
 ul {
-  border-left: 1px solid white;
+  display: inline-block;
   padding: 0px 15px;
-  height: 60px;
 }
 .tech {
+  display: inline-block;
+  height: 60px;
+}
+.group {
   height: 80px;
 }
 .title {
@@ -25,4 +30,17 @@ li {
   font-size: 11px;
   font-weight: 400;
   list-style: none;
+}
+#bottom {
+  background-color: black;
+  margin-top: 1px;
+}
+#legal {
+  display: block;
+  float: right;
+}
+#legal li {
+  display: inline-block;
+  border-left: solid 1px white;
+  padding-left: 5px;
 }
