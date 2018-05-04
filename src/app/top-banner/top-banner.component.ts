@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Link } from './../model/link.model.ts';
+import { Link } from './../model/link.model';
 
 @Component({
   selector: 'app-top-banner',

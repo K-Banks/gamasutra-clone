@@ -1,0 +1,10 @@
+div {
+  display: inline-block;
+}
+.jobs {
+  background-color: #D96A00;
+}
+.jobs a {
+  color: white;
+  text-decoration: none;
+}
