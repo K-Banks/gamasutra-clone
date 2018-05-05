@@ -31,10 +31,6 @@ li {
   font-weight: 400;
   list-style: none;
 }
-#bottom {
-  background-color: black;
-  margin-top: 1px;
-}
 #legal {
   display: block;
   float: right;

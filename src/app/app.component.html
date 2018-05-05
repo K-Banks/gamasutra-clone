@@ -2,11 +2,30 @@
   <app-top-banner></app-top-banner>
 </div>
 
-<div  class='container'>
+<div class='container'>
   <img alt="Gamasutra Logo" src="https://twimgs.com/gamasutra/images/gamasutra_logo.png">
-  <br>
-  <app-site-nav></app-site-nav>
-  <app-topic-bar></app-topic-bar>
+  <div class="wrapper">
+    <app-site-nav></app-site-nav>
+    <app-topic-bar></app-topic-bar>
+    <div class="row">
+      <div class="col-3">
+        <app-left-bar></app-left-bar>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <app-major-stories></app-major-stories>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <app-recent-stories></app-recent-stories>
+          </div>
+          <div class="col-6">
+            <app-right-bar></app-right-bar>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <app-bottom-banner></app-bottom-banner>
