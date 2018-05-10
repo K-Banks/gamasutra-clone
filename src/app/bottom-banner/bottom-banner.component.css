@@ -22,6 +22,7 @@ ul {
 }
 .group {
   height: 80px;
+  margin-left: 1px solid white;
 }
 .title {
   font-weight: 700;

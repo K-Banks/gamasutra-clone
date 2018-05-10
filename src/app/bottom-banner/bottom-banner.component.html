@@ -6,54 +6,30 @@
     <div class="col-10">
       <ul class="tech group">
         <li class="title">TECHNOLOGY GROUP</li>
-        <li><a href="#">Black Hat</a></li>
-        <li><a href="#">Content Marketing Institute</a></li>
-        <li><a href="#">Content Marketing World</a></li>
-        <li><a href="#">Dark Reading</a></li>
+        <li *ngFor="let link of techLinks1"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
       <ul class="tech">
-        <li><a href="#">Enterprise Connect</a></li>
-        <li><a href="#">GDC</a></li>
-        <li><a href="#">Gamasutra</a></li>
-        <li><a href="#">HDI</a></li>
+        <li *ngFor="let link of techLinks2"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
       <ul class="tech">
-        <li><a href="#">ICMI</a></li>
-        <li><a href="#">InformationWeek</a></li>
-        <li><a href="#">INsecurity</a></li>
-        <li><a href="#">Interop ITX</a></li>
+        <li *ngFor="let link of techLinks3"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
       <ul class="tech">
-        <li><a href="#">Network Computing</a></li>
-        <li><a href="#">No Jitter</a></li>
-        <li><a href="#">Service Management World</a></li>
-        <li><a href="#">XRDC</a></li>
+        <li *ngFor="let link of techLinks4"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
       <ul>
         <li class="title">COMMUNITIES SERVED</li>
-        <li><a href="#">Content Marketing</a></li>
-        <li><a href="#">Enterprise IT</a></li>
-        <li><a href="#">Enterprise Communications</a></li>
-        <li><a href="#">Game Development</a></li>
-        <li><a href="#">Information Security</a></li>
-        <li><a href="#">IT Services & Support</a></li>
+        <li *ngFor="let link of communityLinks"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
       <ul>
         <li class="title">WORKING WITH US</li>
-        <li><a href="#">Advertising Contacts</a></li>
-        <li><a href="#">Event Calendar</a></li>
-        <li><a href="#">Tech Marketing</a></li>
-        <li><a href="#">Solutions</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">Licensing</a></li>
+        <li *ngFor="let link of workingLinks"><a href={{link.link}}>{{link.name}}</a></li>
       </ul>
     </div>
   </div>
   <div>
     <ul id="legal">
-      <li><a href="#">Terms of Service</a></li>
-      <li><a href="#">Privacy Statement</a></li>
-      <li><a href="#">Legal Entities</a></li>
+      <li *ngFor="let link of legalLinks"><a href={{link.link}}>{{link.name}}</a></li>
       <li>Copyright (c) 2018 UBM, All rights reserved</li>
     </ul>
   </div>
