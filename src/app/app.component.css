@@ -20,3 +20,11 @@ img {
 .col-6 {
   border: solid black 1px;
 }
+footer {
+  border-top: 1px solid yellow;
+  padding-top: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+}
