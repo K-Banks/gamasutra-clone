@@ -5,6 +5,7 @@ import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { TopBannerComponent } from './top-banner/top-banner.component';
@@ -16,6 +17,7 @@ import { RecentStoriesComponent } from './recent-stories/recent-stories.componen
 import { RightBarComponent } from './right-bar/right-bar.component';
 import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
 import { ContentPanelComponent } from './content-panel/content-panel.component';
+import { MainComponent } from './main/main.component';
 
 
 export const firebaseConfig = {
@@ -35,14 +37,16 @@ export const firebaseConfig = {
     RecentStoriesComponent,
     RightBarComponent,
     BottomBannerComponent,
-    ContentPanelComponent
+    ContentPanelComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(firebaseConfig),
     AngularFireDatabaseModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
