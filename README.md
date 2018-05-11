@@ -7,7 +7,10 @@
 _This webpage application is a clone of the website http://www.gamasutra.com._
 
 
-## Setup/Installation Requirement
+## Site viewing for Visitors:
+* To view this website, navigate to https://gamasutraclone.firebaseapp.com/ in a web browser.
+
+## Setup/Installation Requirement for Developers:
 
 * Clone repository on your local computer from https://github.com/K-Banks/gamasutra-clone.
 * If you already have Node, Homebrew, Karma, and Angular installed, then skip to "Install Dependencies."
