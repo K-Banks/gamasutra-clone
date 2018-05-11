@@ -1,6 +1,11 @@
 div {
   font-size: 10px;
+  border: 1px solid black;
 }
 input {
   width: 30px;
+}
+li {
+  list-style: none;
+  display: inline-block;
 }
