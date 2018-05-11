@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { masterFirebaseConfig } from './api-keys.ts';
+import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
 
@@ -16,6 +16,12 @@ import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
 import { ContentPanelComponent } from './content-panel/content-panel.component';
 
 
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+}
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,9 +44,3 @@ import { ContentPanelComponent } from './content-panel/content-panel.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-export const firebaseConfig = {
-  apiKey: masterFirebaseConfig.apiKey,
-  authDomain: masterFirebaseConfig.authDomain,
-  databaseURL: masterFirebaseConfig.databaseURL,
-  storageBucket: masterFirebaseConfig.storageBucket
-}
