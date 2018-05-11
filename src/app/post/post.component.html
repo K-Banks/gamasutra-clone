@@ -1,0 +1,13 @@
+<form>
+  <h2>Post a new article</h2>
+  <label>Title of new article</label>
+  <input class="form-control" #title>
+  <label>Your name (author)</label>
+  <input class="form-control" #author>
+  <label>URL for image thumbnail</label>
+  <input class="form-control" #image>
+  <label>Write your post below:</label>
+  <textarea class="form-control" #paragraphs rows="5"></textarea>
+  <br>
+  <button class="btn" (click)="submitNewArticle(title.value, author.value, image.value, paragraphs.value)">Submit my Article!</button>
+</form>

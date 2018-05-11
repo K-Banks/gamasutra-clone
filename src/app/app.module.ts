@@ -18,6 +18,7 @@ import { RightBarComponent } from './right-bar/right-bar.component';
 import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
 import { ContentPanelComponent } from './content-panel/content-panel.component';
 import { MainComponent } from './main/main.component';
+import { PostComponent } from './post/post.component';
 
 
 export const firebaseConfig = {
@@ -38,7 +39,8 @@ export const firebaseConfig = {
     RightBarComponent,
     BottomBannerComponent,
     ContentPanelComponent,
-    MainComponent
+    MainComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
