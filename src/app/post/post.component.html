@@ -1,13 +1,13 @@
-<form>
+<div>
   <h2>Post a new article</h2>
   <label>Title of new article</label>
-  <input class="form-control" #title>
+  <input class="form-control" #newTitle>
   <label>Your name (author)</label>
-  <input class="form-control" #author>
+  <input class="form-control" #newAuthor>
   <label>URL for image thumbnail</label>
-  <input class="form-control" #image>
+  <input class="form-control" #newImage>
   <label>Write your post below:</label>
-  <textarea class="form-control" #paragraphs rows="5"></textarea>
+  <textarea class="form-control" #newParagraphs rows="5"></textarea>
   <br>
-  <button class="btn" (click)="submitNewArticle(title.value, author.value, image.value, paragraphs.value); title.value=''; author.value=''; image.value=''; paragraphs.value=''">Submit my Article!</button>
-</form>
+  <button class="btn" (click)="submitNewArticle(newTitle.value, newAuthor.value, newImage.value, newParagraphs.value); newTitle.value=''; newAuthor.value=''; newImage.value=''; newParagraphs.value=''">Submit my Article!</button>
+</div>

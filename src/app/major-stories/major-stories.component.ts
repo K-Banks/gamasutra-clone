@@ -9,7 +9,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
   providers: [ArticlesService]
 })
 export class MajorStoriesComponent implements OnInit {
-  articles: FirebaseListObservable<any[]>;
+  articles;
   mainArticle: FirebaseListObservable<any[]>;
   articlesToList;
 

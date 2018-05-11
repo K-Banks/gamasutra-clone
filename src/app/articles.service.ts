@@ -17,4 +17,10 @@ export class ArticlesService {
   getMainArticle() {
     return this.database.object('/articles/0');
   }
+
+  addNewArticle(newArticle) {
+    // let newArticle = new Article(title, author, date, image, paragraphs);
+    // console.log(newArticle + " this is the new Article");
+    this.articles.push(newArticle);
+  }
 }
