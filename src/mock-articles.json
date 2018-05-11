@@ -1,0 +1,18 @@
+{
+  "articles": [{
+    "title": "Veteran voice actor Nolan North to recieve BATFA Special Award",
+    "author": "Chris Kerr",
+    "date": "May 11, 2018",
+    "time": "",
+    "image": "https://gamasutra.com/db_area/images/news/2018/May/317991/north.jpg",
+    "paragraphs": "The British Academy of Film and Television Arts (BAFTA) will honor voice performer Nolan North, best known as Uncharted's quip-happy protagonist Nathan Drake, with a Special Award later this year. The award will be presented to North at a pre-E3 event in London on June 11, and will recognise the actor's outstanding contribution to performance in games. Previous winners of the BAFTA Special Award include former Uncharted game director Amy Hennig, influential game designer Brenda Romero, and Riot Games co-founders Brandon Beck and Marc Merrill. 'To be recognized for one's work is always special, but to be recognized by BAFTA is truly an honor,' commented North, who's also appeared in other major franchises like Destiny, Assassin's Creed, and Call of Duty. 'I am humbled beyond words.'"
+  },
+  {
+    "title": "Q&A: Building and balancing BattleTech's procedurally-generated missions",
+    "author": "Alan Bradley",
+    "date": "May 11, 2018",
+    "time": "",
+    "image": "https://www.gamasutra.com/db_area/images/news/2018/May/317863/battletechlaunchvodthumb.png",
+    "paragraphs": "Fitting procedurally-generated elements into an RPG means walking a tightrope of careful balancing and tuning, a task that’s made even more challenging when the RPG in question is as nuanced and complex as Battletech. It makes sense, then, that lead designer Kiva Maginn and the team at Harebrained Schemes attacked generating content for the recently-released strategy game in a layered, complicated way. Procedurally-generated missions weren't actually a core part of the Battletech game Harebrained pitched on Kickstarter; they were one of the stretch goals, and when the campaign raised enough money to merit their inclusion, the team had to decide how best to incorporate them into a hand-crafted strategy game with a core storyline. Gamasutra recently reached out to Maginn to hear more about how she and her compatriots implemented a procedurally-generated mission system that can reliably present players with a believable setup and, perhaps more importantly, an interesting challenge. Her answers were so fascinating (and so detailed) that we thought you might enjoy reading them for yourself, in full, below."
+  }]
+}
