@@ -11,6 +11,7 @@ import { MajorStoriesComponent } from './major-stories/major-stories.component';
 import { RecentStoriesComponent } from './recent-stories/recent-stories.component';
 import { RightBarComponent } from './right-bar/right-bar.component';
 import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
+import { ContentPanelComponent } from './content-panel/content-panel.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BottomBannerComponent } from './bottom-banner/bottom-banner.component';
     MajorStoriesComponent,
     RecentStoriesComponent,
     RightBarComponent,
-    BottomBannerComponent
+    BottomBannerComponent,
+    ContentPanelComponent
   ],
   imports: [
     BrowserModule
