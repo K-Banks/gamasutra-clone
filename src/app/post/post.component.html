@@ -9,5 +9,5 @@
   <label>Write your post below:</label>
   <textarea class="form-control" #paragraphs rows="5"></textarea>
   <br>
-  <button class="btn" (click)="submitNewArticle(title.value, author.value, image.value, paragraphs.value)">Submit my Article!</button>
+  <button class="btn" (click)="submitNewArticle(title.value, author.value, image.value, paragraphs.value); title.value=''; author.value=''; image.value=''; paragraphs.value=''">Submit my Article!</button>
 </form>
