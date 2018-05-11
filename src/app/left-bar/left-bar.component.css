@@ -1,11 +1,43 @@
 div {
   font-size: 10px;
-  border: 1px solid black;
+}
+.login {
+  background-color: #81bc79;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+}
+.login h4 {
+  font-size: 15px;
+  color: #22522A;
+}
+#forgotPass {
+  color: white;
+}
+#forgotPass:hover {
+  color: #22522a;
+  text-decoration: underline;
+}
+#signUp {
+  color: #600;
+}
+#signUp:hover {
+  text-decoration: underline;
 }
 input {
-  width: 30px;
+  width: 100%;
 }
 li {
   list-style: none;
+}
+.col-6 {
+  text-align: right;
+}
+
+.socialMedia ul {
+  padding-left: 0px;
+}
+.socialMedia li {
   display: inline-block;
+  width: 20%;
 }

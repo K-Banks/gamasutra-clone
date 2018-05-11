@@ -7,6 +7,10 @@
   max-width: 838px;
   background-color: white;
 }
+.col-3 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
 img {
   margin-bottom: 20px;
 }
