@@ -19,7 +19,7 @@ export class MajorStoriesComponent implements OnInit {
     });
     this.articlesService.getArticles().subscribe(dataLastEmittedFromObserver => {
       this.articles = dataLastEmittedFromObserver;
-      this.articlesToList = this.articles.slice(1);
+      this.articlesToList = this.articles.slice(1,7);
     });
   }
 

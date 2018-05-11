@@ -1,3 +1,18 @@
-<p>
-  recent-stories works!
-</p>
+<div class="panel">
+  <div class="panel-header">
+    <img src="https://twimgs.com/gamasutra//images/icon_news.png" alt="Latest Updates">
+    <h4>Latest Updates</h4>
+  </div>
+  <div class="panel-body" *ngFor="let article of articles">
+    <strong>{{article?.title}}</strong>
+    <br>
+    <div class="row">
+      <div class="col-8">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
+      </div>
+      <div class="col-4">
+        <img src={{article?.image}} alt="">
+      </div>
+    </div>
+  </div>
+</div>
