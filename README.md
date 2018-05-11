@@ -40,6 +40,18 @@ _This webpage application is a clone of the website http://www.gamasutra.com._
   * Enter the following code in the command line to install all dependencies:
     * $ npm install
 
+  <!-- #### Add Firebase API-key
+  * create a file called api-keys.ts using this command:
+    * $ ng g /src/app/api-keys.ts
+  * open this file in atom and fill with the code below:
+      export var masterFirebaseConfig = {
+        apiKey: "xxxx",
+        authDomain: "xxxx.firebaseapp.com",
+        databaseURL: "https://xxxx.firebaseio.com",
+        storageBucket: "xxxx.appspot.com",
+        messagingSenderId: "xxxx"
+      }; -->
+
   #### Working with the project in command line:
   * To build and observe the app on a local host:
     * $ ng serve --open
