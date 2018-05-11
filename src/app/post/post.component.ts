@@ -17,14 +17,11 @@ export class PostComponent {
     let newDate = new Date;
     let date = (newDate.getMonth() + 1) + "/" + newDate.getUTCDate() + "/" +
      newDate.getUTCFullYear();
-    debugger
-    var newArticle: Article = new Article();
-    newArticle.title = title;
-    newArticle.author = author;
-    newArticle.image = image;
-    newArticle.date = date;
-    newArticle.paragraphs = paragraphs;
-    console.log("TESTING NEW ARTICLE" + newArticle)
+    var newArticle: Article = new Article(title, author, date, image, paragraphs);
     this.articlesService.addNewArticle(newArticle);
+  }
+
+  goHome() {
+    this.router.navigate([""])
   }
 }

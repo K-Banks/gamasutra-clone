@@ -19,8 +19,6 @@ export class ArticlesService {
   }
 
   addNewArticle(newArticle) {
-    // let newArticle = new Article(title, author, date, image, paragraphs);
-    // console.log(newArticle + " this is the new Article");
     this.articles.push(newArticle);
   }
 }

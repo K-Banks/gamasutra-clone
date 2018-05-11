@@ -1,3 +1,15 @@
 export class Article {
-  constructor(title: string, author: string, date: string, image: string, paragraphs: string) { }
+  title: string;
+  author: string;
+  date: string;
+  image: string;
+  paragraphs: string;
+
+  constructor(title: string, author: string, date: string, image: string, paragraphs: string) {
+    this.title = title;
+    this.author = author;
+    this.date = date;
+    this.image = image;
+    this.paragraphs = paragraphs;
+  }
 }
